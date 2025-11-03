@@ -1,0 +1,50 @@
+body {
+    background-color: #222222;
+    color: white;
+}
+
+.header {
+    color: white;
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav li {
+    list-style-type: none !important;
+    overflow: hidden !important;
+    border: none !important;
+    width: 240px;
+    display: inline-block;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.nav li a {
+    display: block !important;
+    color: aliceblue !important;
+    padding: 17px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.nav li a:hover {
+    color: rgb(255, 209, 209) !important;
+    transform: scale(1.05);
+    transition: all .3s ease;
+}
+
+.resume a {
+    color: #d84141 !important;
+    background-color: #222222;
+}
+
+.nav a {
+    background-color: #d84141 !important;
+    color: white;
+}
+
+
+
